@@ -3,9 +3,10 @@ msdemo
 由于在外地，环境和时间的限制，没有做数据层面的相关业务，只是实现了部分业务框架功能
 实现以下功能：
 1.HttpClient 前台模拟测试
-2.登入资源创建相关的TOKEN 生命周期的配置 并做加密处理
+2.对资源的过滤，TOKEN验证机制， 生命周期的配置 并做加密处理
 3.用户注册，查询的接口不要TOKEN
-4.对书的查询，新增，修改，删除的接口并用GET,PSOT,PUT,DELETE 等方式实现，前后台对象的传输
+4.对书的业务的查询，新增，修改，删除的接口并用GET,PSOT,PUT,DELETE 等方式实现，前后台对象的传输，需要TOKEN验证
+5.异常管理
 
 使用的部分技术：JAVA，JERSEY,HTTPCLIENT,Json
 使用的工具：ECLIPSE,GIT,MAVEN,TOMCATE
